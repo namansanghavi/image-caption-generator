@@ -40,10 +40,6 @@ image-caption-generator/
 
 │── README.md  #project documentation
 
-│── model.png  #model architecture diagram
-
-│── data/  #pretrained model
-
 ---
 
 ## ⚙️ Installation
