@@ -57,8 +57,8 @@ pip install -r requirements.txt
 ---
 
 ## ▶️ Usage
-You can either **train the model from scratch** or **use the pre-trained model** provided in the `data/` folder.
-### Option 1: Run Full Training
+You can **train the model from scratch**.
+### Run Full Training
 Run the notebook:
 ```bash
 jupyter notebook captiongenerator.ipynb
@@ -69,17 +69,6 @@ jupyter notebook captiongenerator.ipynb
 3. Tokenize and encode text sequences.
 4. Train CNN + LSTM model.
 5. Generate captions for new images.
-
-### Option 2: Use Pre-trained Model (Recommended)
-We have provided the following files in the data/ folder:
-- **features.pkl** → pre-extracted image features
-- **tokenizer.pkl** → pre-trained tokenizer
-- **model.h5** → trained CNN-LSTM model
-**Steps:**
-1. Download the data/ folder contents.
-2. Upload them into the notebook environment.
-3. Run the importing, caption prediction and generation section in the notebook.
-Generate captions for any custom image without retraining.
 
 ---
 
